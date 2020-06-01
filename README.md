@@ -1,4 +1,4 @@
-# s-ratelimit
+# s-ratelimiter
 Ratelimits function calls by delaying them
 * Allows for bursts of calls
 * Simple lightweight implementation
@@ -7,7 +7,10 @@ Ratelimits function calls by delaying them
 ```javascript
 import { create_ratelimiter } from './s-ratelimiter.mjs'
 
-const ratelimit = create_ratelimiter({ amount: 1 })
+const ratelimit = create_ratelimiter({
+    amount: 1,
+    period: 1000 // once/1000ms
+})
 
 function somefunction (n) {
     return new Promise((res, rej) => {
