@@ -1,6 +1,6 @@
 {
   "name": "s-ratelimiter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Ratelimits function calls by delaying them",
   "main": "s-ratelimiter.mjs",
   "scripts": {

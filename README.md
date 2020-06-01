@@ -5,7 +5,7 @@ Ratelimits function calls by delaying them
 
 # Example
 ```javascript
-import { create_ratelimiter } from './s-ratelimiter.mjs'
+import { create_ratelimiter } from 's-ratelimiter'
 
 const ratelimit = create_ratelimiter({
     amount: 1,
