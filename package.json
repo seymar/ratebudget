@@ -1,0 +1,24 @@
+{
+  "name": "ratebudget",
+  "version": "1.0.0",
+  "description": "Ratelimits function calls by delaying them based on a budget",
+  "main": "ratebudget.mjs",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seymar/ratebudget.git"
+  },
+  "keywords": [
+    "ratelimit",
+    "rate",
+    "limit"
+  ],
+  "author": "seymar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seymar/ratebudget/issues"
+  },
+  "homepage": "https://github.com/seymar/ratebudget#readme"
+}
