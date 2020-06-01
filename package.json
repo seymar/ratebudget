@@ -1,14 +1,14 @@
 {
-  "name": "ratebudget",
+  "name": "s-ratelimiter",
   "version": "1.0.0",
-  "description": "Ratelimits function calls by delaying them based on a budget",
-  "main": "ratebudget.mjs",
+  "description": "Ratelimits function calls by delaying them",
+  "main": "s-ratelimiter.mjs",
   "scripts": {
-    "test": "test.js"
+    "test": "node test/test.mjs"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/seymar/ratebudget.git"
+    "url": "git+https://github.com/seymar/s-ratelimiter.git"
   },
   "keywords": [
     "ratelimit",
@@ -18,7 +18,7 @@
   "author": "seymar",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/seymar/ratebudget/issues"
+    "url": "https://github.com/seymar/s-ratelimiter/issues"
   },
-  "homepage": "https://github.com/seymar/ratebudget#readme"
+  "homepage": "https://github.com/seymar/s-ratelimiter#readme"
 }
